@@ -8,16 +8,16 @@ The original project [akoenig/gulp-svg2png](https://github.com/akoenig/gulp-svg2
 
 ## Usage
 
-First, install `gulp-svg2png` as a development dependency:
+First, install `gulp-svg2png-update` as a development dependency:
 
 ```shell
-npm install --save-dev gulp-svg2png
+npm install --save-dev gulp-svg2png-update
 ```
 
 Then, add it to your `gulpfile.js`:
 
 ```javascript
-var svg2png = require('gulp-svg2png');
+var svg2png = require('gulp-svg2png-update');
 
 gulp.task('svg2png', function () {
     gulp.src('./specs/assets/**/*.svg')
@@ -32,7 +32,7 @@ gulp.task('svg2png', function () {
 
 `options`
 
-The resizing options which will be passed directly to [svg2png](https://github.com/domenic/svg2png#exact-resizing-behavior).
+The resizing options which will be passed directly to [svg2png](https://github.com/ryanwholey/svg2png#exact-resizing-behavior).
 
 `verbose`
 
@@ -52,7 +52,7 @@ npm run build
 
 ## Changelog
 
-See [HISTORY.md](https://github.com/akoenig/gulp-svg2png/blob/master/HISTORY.md)
+See [HISTORY.md](https://github.com/ryanwholey/gulp-svg2png/blob/master/HISTORY.md)
 
 ## Author
 
